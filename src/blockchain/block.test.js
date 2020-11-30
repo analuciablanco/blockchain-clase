@@ -33,7 +33,7 @@ describe('Block', () => {
     it("usando static hash", () => {
         hash = Block.hash(timestamp, previousBlock.hash, data);
 
-        const hasOutput = "79c807bb891eda47b56dd0e57a222509a24710ae296c19a46744425b40acc8e9";
+        const hasOutput = "1c262c8a72c0bad8f8ae46cafb094f60e946484c0808f2b743c1d81cb82801af";
         expect(hash).toEqual(hasOutput);
     });
 
